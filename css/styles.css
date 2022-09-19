@@ -1,0 +1,178 @@
+/*********************************TAG SELECTOR*********************************/
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #EEEEEE;
+    margin-top: 0;
+    margin-bottom: -20px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #0a7d81;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+h4 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 0rem;
+}
+
+p {
+    color: #222831;
+    font-size: 1.1em;
+    line-height: 2;
+}
+
+a {
+    color: #EEEEEE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin: 1em;
+    text-decoration: none;
+}
+
+hr {
+    width: 7%;
+    margin: 100px auto;
+    border-style: none;
+    border-color: #EEEEEE;
+    border-width: 10px;
+    border-top-style: dotted;
+}
+
+
+/*********************************CLASS SELECTOR*********************************/
+
+
+.top-container {
+    background-color: #00ADB5;
+    margin: 0;
+    margin-bottom: 100px;
+    padding-top: 200px;
+}
+
+.middle-container {
+
+}
+
+
+.bottom-container {
+    background-color: #00ADB5;
+    color: white;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+
+.contact-me {
+    width: 40%;
+    margin: auto;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 21rem;
+    left: 15rem;
+    width: 9rem;
+
+}
+.bottom-cloud:hover {
+    left: 18rem;
+
+}
+
+.top-cloud {
+    position: absolute;
+    top: 5rem;
+    right:18rem;
+    width: 9rem;
+    
+}
+
+
+.top-cloud:hover {
+    right: 21rem;
+
+}
+
+.boy {
+    border-radius: 100%;
+    width: 150px;
+    background-color: #EEEEEE;
+}
+.boy:hover {
+    background-color: transparent;
+}
+
+.mountain {
+    width: 40rem;
+    margin-top: 100px;
+    margin-bottom: -4px;
+}
+
+.mountain:hover {
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+    
+}
+
+
+.profile {
+    width: 30%;
+    margin: 0 auto 0 auto;
+}
+
+.python {
+    float: left;
+    margin-right: 30px;
+    width: 40%;
+}
+
+.web {
+    float: right;
+    margin-left: 30px;
+    width: 42%;
+}
+
+.btn {
+    background-color: #0a7d81;
+    border-radius: 10px;
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem;
+    width: 10rem;
+}
